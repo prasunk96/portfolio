@@ -2,7 +2,7 @@
     background-color: #f8ceec;
     background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
     height: 100%;
-    width: 100%;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -13,7 +13,6 @@
     color: white;
     font-family: 'Open Sans';
     height: 100%;
-    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -26,10 +25,9 @@
     color: white;
     font-family: 'Open Sans';
     height: 100%;
-    width: 100%;
-    flex: 1;
     display: flex;
     align-items: center;
+    flex: 1;
 }
 
 .profileImage {
@@ -57,4 +55,10 @@
     font-weight: 500;
     width: 100%;
     display: flex;
+}
+
+.seperatorDiv {
+    height: 250px;
+    border-right: 1px solid rgb(255, 255, 255);
+    margin-right: 100px;
 }

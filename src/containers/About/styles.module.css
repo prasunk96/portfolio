@@ -1,0 +1,80 @@
+.aboutContainer {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.aboutSection {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.aboutHeader {
+    color: #a88beb;
+    font-family: 'Open Sans';
+    font-size: 70px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.aboutText {
+    color: #b8a4e7;
+    margin-right: 35px;
+}
+
+.paragraphStyle {
+    text-align: justify;
+    word-spacing: 10px;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 350;
+    margin: 0px;
+}
+
+.seperatorDiv {
+    height: 350px;
+    border-right: 1px solid purple;
+}
+
+.stackContainer {
+    height: 100%;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+    padding-right: 40px;
+}
+
+.imageGrid {
+    flex: 1 1;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imageContainer {
+    flex: 1 1 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.imageContainer>img {
+    height: 100px;
+    width: 100px;
+}
