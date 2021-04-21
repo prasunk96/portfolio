@@ -8,15 +8,15 @@ export const Landing = () => {
         <div className={styles.landing}>
             <HamMenu />
             <div className={styles.landingTitle}>
+                {/* <div className={styles.designation}>Hi,</div> */}
                 <div className={styles.name}>Prasun Kumar</div>
-                <div className={styles.designation}>Software Engineer</div>
             </div>
-            <div className={styles.seperatorDiv}>&nbsp;</div>
-            <div className={styles.profileImageContianer}>
+            {/* <div className={styles.seperatorDiv}>&nbsp;</div> */}
+            {/* <div className={styles.profileImageContianer}>
                 <div className={styles.profileImage}>
                     <img alt="profileImage" src={profileImage} className={styles.profileImageTag} />
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

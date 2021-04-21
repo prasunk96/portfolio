@@ -2,6 +2,7 @@ import { React } from 'react';
 import styles from './styles.module.css';
 import { Landing } from '../Landing';
 import { About } from '../About';
+import { Content } from '../Content';
 
 export const Home = () => {
     return (
@@ -11,7 +12,7 @@ export const Home = () => {
                 <About />
             </div>
             <div className={styles.content}>
-                Content
+                <Content />
             </div>
             <div className={styles.footer}>
                 Footer
