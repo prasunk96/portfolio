@@ -1,0 +1,56 @@
+.inputContainer {
+    position: relative;
+    display: flex;
+}
+
+:focus{outline: none;}
+input[type="text"] { 
+    font: 14px/24px "Lato", Arial, sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px;
+    margin-right: -5px;
+    z-index: 30;
+    color: white;
+}
+
+input[type="text"]:focus {
+    border: none;
+    transition: 0.4s;
+}
+
+.inputEffect {
+    border: 1px solid #ccc; padding: 7px 14px; transition: 0.4s; background: transparent;
+}
+.inputEffect ~ .focus-border:before,
+.inputEffect ~ .focus-border:after {
+    content: ""; position: absolute; top: 0; left: 0; width: 0; height: 2px; background-color: rgba(48,207,208,1); transition: 0.3s;
+}
+.inputEffect ~ .focus-border:after {
+    top: auto; bottom: 0; left: auto; right: 0;
+}
+.inputEffect ~ .focus-border i:before,
+.inputEffect ~ .focus-border i:after {
+    content: ""; position: absolute; top: 0; left: 0; width: 2px; height: 0; background-color: rgba(48,207,208,1); transition: 0.4s;
+}
+.inputEffect ~ .focus-border i:after {
+    left: auto; right: 0; top: auto; bottom: 0;
+}
+.inputEffect:focus ~ .focus-border:before,
+.inputEffect:focus ~ .focus-border:after,
+.has-content.inputEffect ~ .focus-border:before,
+.has-content.inputEffect ~ .focus-border:after{ 
+    width: 100%; transition: 0.3s;
+}
+.inputEffect:focus ~ .focus-border i:before,
+.inputEffect:focus ~ .focus-border i:after,
+.has-content.inputEffect ~ .focus-border i:before,
+.has-content.inputEffect ~ .focus-border i:after {
+    height: 100%; transition: 0.4s;
+}
+.inputEffect ~ label {
+    position: absolute; left: 14px; width: 100%; top: 10px; color: rgba(255, 255, 255, 0.651); transition: 0.3s; z-index: 20; letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.inputEffect:focus ~ label, .has-content.inputEffect ~ label {
+    top: -20px; left: 0; font-size: 14px; color: rgba(48,207,208,1); transition: 0.3s; font-weight: 500;
+}

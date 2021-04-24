@@ -3,6 +3,7 @@ import styles from './styles.module.css';
 import { Landing } from '../Landing';
 import { About } from '../About';
 import { Content } from '../Content';
+import { Footer } from '../Footer';
 
 export const Home = () => {
     return (
@@ -15,7 +16,7 @@ export const Home = () => {
                 <Content />
             </div>
             <div className={styles.footer}>
-                Footer
+                <Footer />
             </div>
         </div>
     )
