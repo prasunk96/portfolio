@@ -11,7 +11,7 @@ export const FooterForm = () => {
     return (
         <div className={styles.footerFormContainer}>
             <div className={styles.footerFormHeader}>
-                Ping Me
+                <label>Ping Me</label>
             </div>
             <div className={styles.formInputContainer}>
                 <div className={styles.footerFormName}>
@@ -21,7 +21,7 @@ export const FooterForm = () => {
                     <Input name='Contact' type="text" placeholder='Contact' onChange={setContact} value={contact} />
                 </div>
                 <div className={styles.footerFormDescription}>
-                    <textarea className={styles.footerFormTextarea} name="Descrption" type="text" placeholder="Have something to explain..." onChange={setDescrption} value={description} />
+                    <textarea className={styles.footerFormTextarea} name="Descrption" type="text" placeholder="Have something to explain..." onChange={(e) => setDescrption(e.target.value)} value={description} />
                 </div>
                 <div className={styles.footerFormButton}>
                     <Button icon={'send'} label={'Send'} />
