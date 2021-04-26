@@ -8,12 +8,13 @@ import html from '../../assets/images/html-5.svg';
 import bootstrap from '../../assets/images/bootstrap.svg';
 import materialui from '../../assets/images/material-ui.svg';
 import reactrouter from '../../assets/images/react-router.svg';
+import { IconCard } from './IconCard';
 // import cplus from '../../assets/images/c-plusplus.svg';
 
 export const About = () => {
     return (
         <div className={styles.aboutContainer}>
-            <div className={styles.aboutSection}>
+            {/* <div className={styles.aboutSection}>
                 <div className={styles.aboutText}>
                     <p className={styles.paragraphStyle}>
                         Hi,
@@ -21,34 +22,17 @@ export const About = () => {
                         My Major experience is in front-end development and i expertise in <b>ReactJS</b>, <b>JavaScript</b>.
                     </p>
                 </div>
-            </div>
+            </div> */}
             <div className={styles.seperatorDiv}>&nbsp;</div>
             <div className={styles.stackContainer}>
                 <div className={styles.imageGrid}>
-                    <div className={styles.imageContainer}>
-                        <img src={reactlogo} alt="reactjs" />
-                    </div>
-                    <div className={styles.imageContainer}>
-                        <img src={python} alt="python" />
-                    </div>
-                    <div className={styles.imageContainer}>
-                        <img src={reactrouter} alt="reactrouter" />
-                    </div>
-                    <div className={styles.imageContainer}>
-                        <img src={html} alt="html" />
-                    </div>
-                    <div className={styles.imageContainer}>
-                        <img src={javascript} alt="javascript" />
-                    </div>
-                    <div className={styles.imageContainer}>
-                        <img src={css} alt="css" />
-                    </div>
-                    <div className={styles.imageContainer}>
-                        <img src={bootstrap} alt="bootstrap" />
-                    </div>
-                    <div className={styles.imageContainer}>
-                        <img src={materialui} alt="materialui" />
-                    </div>
+                    <IconCard logo={reactlogo} alt={'ReactJS'} proficiency={100} experience={2} />
+                    <IconCard logo={python} alt={'Python'} proficiency={50} experience={0} />
+                    <IconCard logo={reactrouter} alt={'React-Router'} proficiency={80} experience={1} />
+                    <IconCard logo={html} alt={'HTML'} proficiency={100} experience={2} />
+                    <IconCard logo={css} alt={'CSS'} proficiency={80} experience={2} />
+                    <IconCard logo={bootstrap} alt={'Bootstrap'} proficiency={80} experience={1} />
+                    <IconCard logo={materialui} alt={'MaterialUI'} proficiency={60} experience={0} />
                 </div>
             </div>
         </div>

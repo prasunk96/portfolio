@@ -1,0 +1,14 @@
+import { react } from 'react';
+import styles from './styles.module.css';
+
+export const PercentageBar = ({value}) => {
+    return (
+    <div className={styles.percentageBarContainer}>
+        <div className={styles.percentageBarOuter}>
+            <div className={styles.percentageBarInner} style={{width: value}}>
+                &nbsp;
+            </div>
+        </div>
+    </div>
+    );
+}
