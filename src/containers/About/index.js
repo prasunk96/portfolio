@@ -23,7 +23,6 @@ export const About = () => {
                     </p>
                 </div>
             </div> */}
-            <div className={styles.seperatorDiv}>&nbsp;</div>
             <div className={styles.stackContainer}>
                 <div className={styles.imageGrid}>
                     <IconCard logo={reactlogo} alt={'ReactJS'} proficiency={100} experience={2} />

@@ -22,10 +22,10 @@
     width: 100%;
     background-size: cover;
     color: #fff;
+    box-sizing: border-box;
 }
 
 .cardHeaderTtitle {
-    text-transform: uppercase;
     margin: 0;
 }
 
@@ -37,6 +37,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    box-sizing: border-box;
 }
 
 .date {
@@ -93,4 +94,29 @@ i {
     width: 70%;
     height: 1.5em;
     background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
-  }
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 200px;
+        display: block;
+        margin: 30px auto;
+    }
+    
+    .cardHeader {
+        height: 120px;
+    }
+}
+
+@media (max-width: 425px) {
+    .card {
+        width: 280px;
+        display: block;
+        margin: 10px auto;
+    }
+    
+    .cardHeader {
+        height: 120px;
+    }
+}

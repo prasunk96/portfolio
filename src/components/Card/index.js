@@ -6,7 +6,7 @@ import styles from './styles.module.css';
 const Card = ({image, title, text}) => {
     return (
     <article className={styles.card}>
-        <CardHeader image={'https://source.unsplash.com/user/erondu/600x400'}/>
+        <CardHeader image={image}/>
         <CardBody title={title} text={text}/>
     </article>
     )

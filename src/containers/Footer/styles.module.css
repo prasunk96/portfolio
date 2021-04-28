@@ -151,3 +151,9 @@
 .copyRrightIcon {
     margin-right: 10px;
 }
+
+@media (max-width: 425px) {
+    .footerLeftContainer {
+        border-right: none;
+    }
+}

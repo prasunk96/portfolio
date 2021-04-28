@@ -6,4 +6,12 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .contentContainer {
+        flex-wrap: wrap;
+    }
 }

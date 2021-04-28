@@ -3,13 +3,13 @@
 }
 
 .about {
-    height: 100vh;
+    height: auto;
 }
 
 .content {
-    height: 100vh;
+    height: auto;
 }
 
 .footer {
-    height: 70vh;
+    height: auto;
 }
