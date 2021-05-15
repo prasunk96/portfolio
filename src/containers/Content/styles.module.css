@@ -1,5 +1,16 @@
 .contentContainer {
-    background-color: #eaffff;
+    background: #f50057;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.projectsContainer {
     height: 100%;
     width: 100%;
     display: flex;
@@ -14,4 +25,26 @@
     .contentContainer {
         flex-wrap: wrap;
     }
+
+    .projectsContainer {
+        flex-wrap: wrap;
+    }
+}
+
+.customShapeDividerBottomContent {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.customShapeDividerBottomContent svg {
+    position: relative;
+    display: block;
+    width: calc(109% + 1.3px);
+    height: 132px;
+}
+
+.customShapeDividerBottomContent .shapeFillFooter {
+    fill: #252627;
 }

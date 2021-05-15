@@ -6,7 +6,7 @@ export const PercentageBar = ({value}) => {
     <div className={styles.percentageBarContainer}>
         <div className={styles.percentageBarOuter}>
             <div className={styles.percentageBarInner} style={{width: value}}>
-                &nbsp;
+                <span className={styles.progressBarValue}>{value}</span>
             </div>
         </div>
     </div>

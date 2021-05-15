@@ -1,22 +1,23 @@
 .aboutContainer {
-    background-color: #eaffff;
+    background-color: #f50057;
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .aboutSection {
-    flex: 1;
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding-left: 40px;
+    padding: 20px;
 }
 
 .aboutHeader {
@@ -28,26 +29,26 @@
 }
 
 .aboutText {
-    color: #b8a4e7;
-    margin-right: 35px;
+    color: #fff;
 }
 
 .paragraphStyle {
     text-align: justify;
-    word-spacing: 10px;
-    line-height: 35px;
-    font-size: 20px;
+    word-spacing: 5px;
+    font-size: 16px;
     font-weight: 350;
     margin: 0px;
 }
 
 .stackContainer {
     height: 100%;
-    flex: 1 1;
+    width: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
     margin: 20px;
+    background: linear-gradient(to right bottom, rgb(37 38 39), rgb(37 38 39 / 68%));
+    border-radius: 20px;
 }
 
 .imageGrid {
@@ -58,45 +59,27 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 20px;
 }
 
 .itemContainer {
-    flex: 1 1 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #30cfd0;
-    flex-direction: column;
-    margin: 10px;
-    max-width: 155px;
-    height: 220px;
-    box-shadow: 0px 5px 5px 0px #9e9e9ea8;
-}
-
-.itemContainer:hover {
-    box-shadow: 0px 5px 5px 2px #a8a8a8e0;
+    flex-direction: row;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .imageContainer {
-    width: 100%;
-    border-bottom: 1px solid #30cfd0;
-    height: 60%;
     box-sizing: border-box;
-    box-shadow: inset 3px 3px 9px 7px #e0dedead;
-}
-
-.imageContainer > img {
-    height: 100px;
-    width: 100px;
-    margin: 15px;
 }
 
 .detailsContainer {
-    height: 40%;
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    background-image: linear-gradient( 109.6deg, rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );
 
 }
 
@@ -110,47 +93,41 @@
 
 .percentageBarOuter {
     width: 100%;
-    border: 1px solid #30cfd05e;;
-    height: 9px;
+    border: 1px solid #f5005752;
+    height: 15px;
     display: flex;
     border-radius: 30px;
     justify-content: flex-start;
     align-items: center;
     border-left: none;
-    box-shadow: inset 4px 4px 3px 0px #30cfd06b;
+    box-shadow: inset 0px 0px 2px 0px #5f5f5f;
 }
 
 .percentageBarInner {
+    background-color: #ffffff;
     border: none;
     height: 100%;
     border-radius: 30px;
-    background-image: linear-gradient(0deg, rgba(51,8,103,1) 11.2%, rgba(48,207,208,1) 92.5% );
-}
-
-.profcontainer {
-    height: 50%;
-    align-items: flex-start;
-    justify-content: flex-start;
+    background-image: linear-gradient(1deg, #252627 11.2%, #f50057 92.5% );
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-.detailsLabel {
-    font-size: 12px;
+.progressBarValue {
+    color: white;
+    font-size: 8px;
     font-weight: 500;
-    color: rgb(255, 255, 255);
+    margin-right: 5px;
 }
 
-.expValue {
-    font-weight: 700;
-    color: #252525;
-    font-size: 14px;
+.techIcons {
+    filter: drop-shadow(0px 2px 0px #f50057);
 }
 
-.expContainer {
-    height: 50%;
-    align-items: flex-start;
-    justify-content: flex-start;
-    display: flex;
-    flex-direction: column;
+@media (max-width: 426px) {
+    .aboutContainer {
+        flex-wrap: wrap;
+    }
 }
+
