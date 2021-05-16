@@ -11,16 +11,16 @@ export const FooterDetails = () => {
                 Social Media
             </div>
             <div className={styles.socailLinkContainer}>
-                <FaInstagram color="rgba(48,207,208,1)" size="25" className={styles.socailLinkIcon} />
-                <FaTwitter color="rgba(48,207,208,1)" size="25" className={styles.socailLinkIcon} />
-                <FaLinkedin color="rgba(48,207,208,1)" size="25" className={styles.socailLinkIcon} />
-                <FaGithub color="rgba(48,207,208,1)" size="25" className={styles.socailLinkIcon} />
+                <FaInstagram color="#fff" size="30" className={styles.socailLinkIcon} />
+                <FaTwitter color="#fff" size="30" className={styles.socailLinkIcon} />
+                <FaLinkedin color="#fff" size="30" className={styles.socailLinkIcon} />
+                <FaGithub color="#fff" size="30" className={styles.socailLinkIcon} />
             </div>
             <div className={styles.EmailHeader}>
                 Email
             </div>
             <div className={styles.emailIdContianer}>
-                <FaRegEnvelope color="rgba(48,207,208,1)" size="25" className={styles.socailLinkIcon} />
+                <FaRegEnvelope color="#fff" size="30" className={styles.socailLinkIcon} />
                 <div className={styles.emailContainer}>prasunk1796@gmail.com</div>
             </div>
         </div>

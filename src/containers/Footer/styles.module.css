@@ -16,7 +16,7 @@
     justify-content: center;
     flex-direction: row;
     flex: 2;
-    border-right: 2px solid rgba(48,207,208,1);
+    border-right: 2px solid #f50057;
 }
 
 .footerDetailsContainer {
@@ -120,6 +120,7 @@
 
 .socailLinkIcon {
     margin-right: 10px;
+    filter: drop-shadow(1px 2px 0px #f50057);
 }
 
 .emailIdContianer {

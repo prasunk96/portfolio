@@ -7,7 +7,6 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
 
 .projectsContainer {
@@ -19,13 +18,13 @@
     flex-direction: row;
     padding: 20px;
     box-sizing: border-box;
+    flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {
     .contentContainer {
         flex-wrap: wrap;
     }
-
     .projectsContainer {
         flex-wrap: wrap;
     }
@@ -47,4 +46,111 @@
 
 .customShapeDividerBottomContent .shapeFillFooter {
     fill: #252627;
+}
+
+.projectCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.projectOverlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.projectCard:hover .projectOverlay {
+    opacity: 1;
+    backdrop-filter: blur(3px);
+}
+
+.projectImage {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.projectDetails {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    border: none;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.projectCard:hover .projectDetails {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.projectTitle {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.projectButtonsContianer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projectButtonsContianer div:last-child {
+    margin-top: 10px;
+}
+
+.projectButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #f50057;
+    width: 80px;
+    height: 20px;
+    padding: 7px;
+}
+
+.projectButtonText {
+    color: #fff;
+    font-size: 12px;
+    margin-left: 10px;
+    width: 80%;
+    text-align: left;
+}
+
+.projectButtonIcon {
+    width: 20%;
+}
+
+.fadeInBottom{
+  top: 80%;
 }
