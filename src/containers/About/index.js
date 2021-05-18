@@ -8,6 +8,11 @@ export const About = () => {
     return (
         <div className={styles.aboutContainer}>
             <div className={styles.aboutSection}>
+                <div className={styles.aboutHeaderContainer}>
+                    <div className={styles.aboutHeader}>
+                        About Me
+                    </div>
+                </div>
                 <div className={styles.aboutText}>
                     <p className={styles.paragraphStyle}>
                         Hi,

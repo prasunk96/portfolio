@@ -51,10 +51,10 @@ export const HamMenu = () => {
             <span className={styles.hamMenuBar}>&nbsp;</span>
         </div>
         {showDiv && <div id="nav-bar" style={isMenueOpen ? mountedStyle : unmountedStyle} className={styles.navBar}>
-            <div className={styles.hamMenuItem}>Home</div>
             <div className={styles.hamMenuItem}>About</div>
-            <div className={styles.hamMenuItem}>Projects</div>
-            <div className={styles.hamMenuItem}>Contact Us</div>
+            <div className={styles.hamMenuItem}>Experience</div>
+            <div className={styles.hamMenuItem}>Work</div>
+            <div className={styles.hamMenuItem}>Contact</div>
         </div>}
         </>
     )

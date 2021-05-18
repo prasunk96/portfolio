@@ -131,3 +131,19 @@
     }
 }
 
+.aboutHeaderContainer  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.aboutHeader{
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
