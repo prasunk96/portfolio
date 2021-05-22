@@ -1,3 +1,10 @@
+.footerWraper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+}
+
 .footerContainer {
     background-color: #252627;
     height: 100%;
@@ -157,4 +164,23 @@
     .footerLeftContainer {
         border-right: none;
     }
+}
+
+.customShapeDividerBottomFooter {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-bottom: -2px;
+}
+
+.customShapeDividerBottomFooter svg {
+    position: relative;
+    display: block;
+    width: calc(109% + 1.3px);
+    height: 132px;
+}
+
+.customShapeDividerBottomFooter .shapeFillFooter {
+    fill: #252627;
 }
