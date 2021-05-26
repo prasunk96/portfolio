@@ -1,0 +1,271 @@
+
+.navbarHeader {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 11;
+    width: 100%;
+    height: 100px;
+    background-color: #252627e5;
+    backdrop-filter: blur(10px);    
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    filter: none !important;
+    pointer-events: auto !important;
+    user-select: auto !important;
+    z-index: 32;
+}
+
+.scrollDown {
+    transform: translateY(-100px);
+    height: 70px;
+    background-color: #252627e5;
+    box-shadow: 0 10px 30px -10px #141414bf;
+}
+
+.scrollUp {
+    transform: translateY(0);
+    height: 70px;
+    background-color: #252627e5;
+    box-shadow: 0 10px 30px -10px #141414bf;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.navButtons > ul {
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    list-style: none;
+}
+
+.navBUttons > ul > li::after {
+    content: "";
+    height: 100%;
+    border-bottom: #fff;
+    z-index: 0;
+}
+
+.hamMenue {
+    display: none;
+}
+
+.hamButton {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    margin-right: -15px;
+    padding: 15px;
+    border: 0px;
+    background-color: transparent;
+    color: inherit;
+    text-transform: none;
+    transition-timing-function: linear;
+    transition-duration: 0.15s;
+    transition-property: opacity, filter;
+}
+
+.hamButton .hamBox {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 24px;
+}
+
+.hamButton .ham {
+    --ham-before: top 0.15s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.15s;
+    --ham-after: bottom 0.15s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.15s;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    width: 30px;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    transition: transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0s;
+    transform: rotate(0deg);
+}
+
+.hamButton .ham::after {
+    width: 80%;
+    bottom: -10px;
+    transition: var(--ham-after);
+    transform: rotate(0deg);
+}
+
+.hamButton .ham::before {
+    width: 120%;
+    top: -10px;
+    opacity: 1;
+    transition: var(--ham-before);
+}
+
+.hamButton .ham::before, .ham::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: auto;
+    right: 0px;
+    width: 30;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.hamButtonAfter {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    margin-right: -15px;
+    padding: 15px;
+    border: 0px;
+    background-color: transparent;
+    color: inherit;
+    text-transform: none;
+    transition-timing-function: linear;
+    transition-duration: 0.15s;
+    transition-property: opacity, filter;
+}
+
+.hamButtonAfter .hamBox {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 24px;
+}
+
+.hamButtonAfter .ham {
+    --ham-before-active: transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    --ham-after-active: transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    width: 30px;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    transition: transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    transform: rotate(225deg);
+}
+
+.hamButtonAfter .ham::before {
+    width: 100%;
+    top: 0px;
+    opacity: 0;
+    transition: var(--ham-before-active)
+}
+
+.hamButtonAfter .ham::after {
+    width: 100%;
+    bottom: 0px;
+    transition: var(--ham-after-active);
+    transform: rotate(-90deg);
+}
+
+
+.hamButtonAfter .ham::before, .ham::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: auto;
+    right: 0px;
+    width: 30;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.hamMenueList {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: flex-start;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    padding: 100px 10px;
+    width: min(75vw, 350px);
+    height: 100vh;
+    outline: 0px;
+    background-color: #f50057;
+    box-shadow: -10px 0px 30px -15px #f50057;
+    z-index: 9;
+    transform: translateX(100vw);
+    visibility: hidden;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+
+.hamMenueList nav {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+}
+
+.hamMenueList ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    width: 100%;
+}
+
+.hamMenueList ul li {
+    position: relative;
+    margin: 0px auto 60px;
+    list-style: none;
+    font-size: clamp(14px,4vw,18px);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.hamMenueList ul li a {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);;
+    width: 100%;
+    padding: 3px 20px 20px;
+}
+
+@media (max-width: 768px) {
+
+    .navButtons {
+        display: none;
+    }
+
+    .hamMenue {
+        display: block;
+    }
+}
+
+

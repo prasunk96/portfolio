@@ -4,11 +4,15 @@ import { Landing } from '../Landing';
 import { About } from '../About';
 import { Content } from '../Content';
 import { Footer } from '../Footer';
+import Navbar from '../../components/Navbar';
 
 export const Home = () => {
     return (
         <div className={styles.homeContainer}>
-            <Landing />
+            <div className={styles.landing}>
+                <Navbar />
+                <Landing />
+            </div>
             <div className={styles.about}>
                 <About />
             </div>
@@ -18,6 +22,7 @@ export const Home = () => {
             <div className={styles.footer}>
                 <Footer />
             </div>
+            <div id="hamMenueOverlay" className={styles.parentOverlay}>&nbsp;</div>
         </div>
     )
 }
