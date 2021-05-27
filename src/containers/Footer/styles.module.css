@@ -6,7 +6,7 @@
 }
 
 .footerContainer {
-    background-color: #252627;
+    background-color: var(--dark-black-grey);
     height: 100%;
     width: 100%;
     display: flex;
@@ -55,7 +55,7 @@
  }
 
  .footerRightContainer > div > p {
-     color: rgb(146, 146, 146);
+     color: var(--light-grey);
      font-size: clamp(12px, 2vw, 16px);
  }
 
@@ -109,7 +109,7 @@
     height: 100%;
     width: 100%;
     font: 14px/24px "Lato", Arial, sans-serif;
-    color: #333;
+    color: var(--light-grey);
     padding-left: 10px;
     resize: none;
 }
@@ -148,7 +148,7 @@
 
 
 .socailLinkIcon {
-    filter: drop-shadow(1px 2px 0px #f50057);
+    filter: drop-shadow(1px 2px 0px var(--powder-pink));
 }
 
 .emailIdContianer {
@@ -188,7 +188,7 @@
 .footerCopyRight {
     font-size: 12px;
     letter-spacing: 0.5px;
-    color: #6d6d6d;
+    color: var(--light-grey);
 }
 
 .copyRrightIcon {
@@ -225,7 +225,7 @@
 }
 
 .customShapeDividerBottomFooter .shapeFillFooter {
-    fill: #252627;
+    fill: var(--dark-black-grey);
 }
 
 h1, h2, h3, h4, h5, h6 {

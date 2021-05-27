@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   margin: 0;
   font-family: var(--font-sans);
@@ -7,12 +11,13 @@ html, body {
   background-color: #f50057;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 :root {
   --font-sans: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
   --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+  --powder-pink: #F50057;
+  --dark-black-grey: #252627;
+  --light-grey: #929292;
+  --navbar-background: #252627e5;
+  --navbar-shadow: #141414bf;
+  --common-transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
 }

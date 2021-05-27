@@ -9,8 +9,8 @@
 	z-index: 1;
 	-webkit-backface-visibility: hidden;
 	-moz-osx-font-smoothing: grayscale;
-    background-color: #f50057;
-    color: white;
+    background-color: var(--powder-pink);
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -24,19 +24,19 @@
 }
 
 .navBar div:not(:last-child) {
-  border-right: 1px solid white;
+  border-right: 1px solid #fff;
 }
 
 .hamMenuItem {
   padding: 0px 10px;
-  color: white;
+  color: #fff;
   cursor: pointer;
 }
 
 .hamMenuBar {
   width: 2rem;
   height: 0.25rem;
-  background-color: white;
+  background-color: #fff;
   transition: all 0.3s linear;
   position: relative;
   transform-origin: 1px;

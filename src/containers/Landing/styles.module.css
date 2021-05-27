@@ -4,7 +4,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    background-color: #252627;
+    background-color: var(--dark-black-grey);
     position: relative;
     padding: 0px 50px;
 }
@@ -44,7 +44,7 @@
 .name {
     grid-area: text;
     color: #ffffff;
-    text-shadow: 0vmin 1vmin 0px #f50057;
+    text-shadow: 0vmin 1vmin 0px var(--powder-pink);
 }
 
 .landingText {
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .metaLine {
     width: 100%;
-    color: #4a4a4b;
+    color: var(--light-grey);
     margin-top: 10px;
     display: flex;
     align-items: center;
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100px;
     width: 100px;
     position: absolute;
-    background-color: #f50057;
+    background-color: var(--powder-pink);
     left: 60%;
     top: 20%;
 }
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100px;
     width: 100px;
     position: absolute;
-    background-color: #f50057;
+    background-color: var(--powder-pink);
     left: 60%;
     top: 20%;
 }
@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .customShapeDividerBottom .shapeFill {
-    fill: #F50057;
+    fill: var(--powder-pink);
 }
 
 @media (max-width: 320px)  {
