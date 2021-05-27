@@ -1,27 +1,21 @@
-import { react, useState } from 'react';
+import React from 'react';
 import styles from './styles.module.css';
-import { Input } from '../../components/Input';
-import { Button } from '../../components/Button';
-import { FaInstagram, FaTwitter, FaGithub, FaLinkedin, FaRegEnvelope } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
+import '../../globalStyles.css';
 
 export const FooterDetails = () => {
     return (
         <div className={styles.footerDetailsContainer}>
-            <div className={styles.socialHeader}>
-                Social Media
-            </div>
             <div className={styles.socailLinkContainer}>
-                <FaInstagram color="#fff" size="30" className={styles.socailLinkIcon} />
-                <FaTwitter color="#fff" size="30" className={styles.socailLinkIcon} />
-                <FaLinkedin color="#fff" size="30" className={styles.socailLinkIcon} />
-                <FaGithub color="#fff" size="30" className={styles.socailLinkIcon} />
-            </div>
-            <div className={styles.EmailHeader}>
-                Email
+                <a className={`animationElement fadeInFromBottom`} style={{animationDelay: '200ms'}} href="https://www.instagram.com/official_prasun" rel="noopener noreferrer" target="_blank" alias="instagram"><FaInstagram cursor="pointer" color="#fff" size="30" className={styles.socailLinkIcon} /></a>
+                <a className={`animationElement fadeInFromBottom`} style={{animationDelay: '300ms'}} href="https://www.linkedin.com/in/prasunk1796" rel="noopener noreferrer" target="_blank" alias="linkedin"><FaLinkedin color="#fff" size="30" className={styles.socailLinkIcon}/></a>
+                <a className={`animationElement fadeInFromBottom`} style={{animationDelay: '400ms'}} href="https://github.com/prasunk96" rel="noopener noreferrer" target="_blank" alias="github"><FaGithub color="#fff" size="30" className={styles.socailLinkIcon}/></a>
+                <a className={`animationElement fadeInFromBottom`} style={{animationDelay: '500ms'}} href="https://twitter.com/_prasun_" rel="noopener noreferrer" target="_blank" alias="twitter"><FaTwitter color="#fff" size="30" className={styles.socailLinkIcon}/></a>
             </div>
             <div className={styles.emailIdContianer}>
-                <FaRegEnvelope color="#fff" size="30" className={styles.socailLinkIcon} />
-                <div className={styles.emailContainer}>prasunk1796@gmail.com</div>
+                <a className={`animationElement fadeInFromBottom`} style={{animationDelay: '600ms'}} href="mailto:prasunk1796@gmail.com" rel="noopener noreferrer" target="_blank" alias="email">
+                    <div className={styles.emailContainer}>prasunk1796@gmail.com</div>
+                </a>
             </div>
         </div>
     )

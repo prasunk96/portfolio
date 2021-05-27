@@ -1,4 +1,4 @@
-import { React } from 'react';
+import React from 'react';
 import CardButton from './CardButton';
 import styles from './styles.module.css';
 

@@ -1,23 +1,22 @@
-import { React } from 'react';
+import React from 'react';
 import styles from './styles.module.css';
-import profileImage from '../../assets/images/profileImage.jpg';
-import { HamMenu } from '../../components/HamburgerMenu';
-// import Navbar from '../../components/Navbar';
+import '../../globalStyles.css';
 
-export const Landing = () => {
+
+export const Landing = ({ isNavbarLoaded }) => {
     return (
         <div className={styles.landingContainer} id="landingContainer">
             <div className={styles.landingTitle}>
-                <div className={styles.landingText}>
+                <div className={`${styles.landingText} animationElement fadeInFromBottom`} style={{animationDelay: '800ms'}}>
                     <h1>Hi, my name is,</h1>
                 </div>
-                <div className={styles.landingText}>
+                <div className={`${styles.landingText} animationElement fadeInFromBottom`} style={{animationDelay: '900ms'}}>
                     <h2 className={styles.name}>Prasun.</h2>
                 </div>
-                <div className={styles.landingText}>
+                <div className={`${styles.landingText} animationElement fadeInFromBottom`} style={{animationDelay: '1000ms'}}>
                     <h3>I develop things for web.</h3>
                 </div>
-                <div className={styles.metaLine}>
+                <div className={`${styles.metaLine} animationElement fadeInFromBottom`} style={{animationDelay: '1100ms'}}>
                     <h1>Front End Developer / Web Developer</h1>
                 </div>
             </div>

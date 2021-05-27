@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 import { FaExternalLinkSquareAlt, FaGithub } from "react-icons/fa";
 
 
-const ProjectCard = ({image, title}) => {
+const ProjectCard = ({image, title, animationDelay}) => {
     var style = { 
         backgroundImage: 'url(' + image + ')',
     };

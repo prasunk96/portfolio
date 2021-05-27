@@ -1,8 +1,9 @@
-import { react } from 'react';
+import React from 'react';
 import styles from './styles.module.css';
-import { FooterForm } from './FooterForm';
 import { FooterDetails } from './FooterDetails';
 import { FooterNote } from './FooterNote';
+import { Button } from '../../components/Button';
+import '../../globalStyles.css';
 
 export const Footer = () => {
     return (
@@ -17,9 +18,15 @@ export const Footer = () => {
                     <FooterDetails />
                 </div>
                 <div className={styles.footerRightContainer}>
-                    <FooterForm />
+                    <div>
+                        <h2 className={`animationElement fadeInFromBottom`} style={{animationDelay: '200ms'}}>Get In Touch</h2>
+                        <p className={`animationElement fadeInFromBottom`} style={{animationDelay: '300ms'}}>I'll try my best to get back to you!</p>
+                    </div>
+                    <div className={`${styles.footerFormButton} animationElement fadeInFromBottom`} style={{animationDelay: '400ms'}}>
+                        <Button label={'Say Hello!'} mailTo={'prasunk1796@gmail.com'}/>
+                    </div>
                 </div>
-                <div className={styles.footerNoteContainer}>
+                <div className={`${styles.footerNoteContainer} animationElement fadeInFromBottom`} style={{animationDelay: '500ms'}}>
                     <FooterNote />
                 </div>
             </div>

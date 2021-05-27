@@ -16,7 +16,7 @@ function debounce(func, wait, immediate) {
     };
 };
 
-const Navbar = () => {
+const Navbar = ({ setIsNavbarLoaded }) => {
     const [prevScrollPos, setPrevScrollPos] = useState(0);
     const [visible, setVisible] = useState(true);
     const [showHamMenue, setShowHamMenue] = useState(false);
@@ -31,10 +31,10 @@ const Navbar = () => {
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
-
+        setIsNavbarLoaded(true);
         return () => window.removeEventListener('scroll', handleScroll);
 
-    }, [prevScrollPos, visible, handleScroll]);
+    }, [prevScrollPos, visible, handleScroll, setIsNavbarLoaded]);
 
     useEffect(() => {
         let element =  document.getElementById('appBody');
@@ -70,10 +70,10 @@ const Navbar = () => {
             <nav className={styles.navbar}>
                 <div className={styles.navButtons}>
                     <ul>
-                        <li>About</li>
-                        <li>Experience</li>
-                        <li>Work</li>
-                        <li>Contact</li>
+                        <li className={`animationElement fadeInFromTop`} style={{animationDelay: '100ms'}}><a href="#about">About</a></li>
+                        <li className={`animationElement fadeInFromTop`} style={{animationDelay: '200ms'}}><a href="#experience">Experience</a></li>
+                        <li className={`animationElement fadeInFromTop`} style={{animationDelay: '300ms'}}><a href="#work">Work</a></li>
+                        <li className={`animationElement fadeInFromTop`} style={{animationDelay: '400ms'}}><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <div className={styles.hamMenue}>
@@ -83,13 +83,13 @@ const Navbar = () => {
                                 <div id="ham" className={styles.ham}></div>
                             </div>
                         </button>
-                        <aside id="hamMenueList" aria-hidden="true" tabindex="-1" className={styles.hamMenueList}>
+                        <aside id="hamMenueList" aria-hidden="true" tabIndex="-1" className={styles.hamMenueList}>
                             <nav>
                                 <ul>
-                                    <li><a href="/#about">About</a></li>
-                                    <li><a href="/#jobs">Experience</a></li>
-                                    <li><a href="/#projects">Work</a></li>
-                                    <li><a href="/#contact">Contact</a>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#experience">Experience</a></li>
+                                    <li><a href="#work">Work</a></li>
+                                    <li><a href="#contact">Contact</a>
                                     </li>
                                 </ul>
                             </nav>

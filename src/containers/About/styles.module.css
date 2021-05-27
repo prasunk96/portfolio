@@ -24,7 +24,6 @@
 
 .aboutHeader {
     color: #a88beb;
-    font-family: 'Open Sans';
     font-size: 70px;
     font-weight: 700;
     width: 100%;
@@ -232,7 +231,7 @@
     position: relative;
     margin-bottom: 10px;
     padding-left: 20px;
-    font-family: monospace;
+    font-family: var(--font-mono);
     font-size: 16px;
     display: flex;
     align-items: center;

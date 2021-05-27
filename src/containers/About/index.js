@@ -1,14 +1,13 @@
-import { React } from 'react';
+import React from 'react';
 import styles from './styles.module.css';
-import { IconCard } from './IconCard';
-import { FaReact, FaPython, FaVuejs, FaJs, FaCss3, FaHtml5, FaBootstrap } from "react-icons/fa";
 import me from '../../assets/images/me.avif';
+import '../../globalStyles.css';
 
 
 export const About = () => {
     return (
-        <div className={styles.aboutContainer}>
-            <div className={styles.aboutHeaderContainer}>
+        <div className={`${styles.aboutContainer}  animationElement fadeInFromBottom`} style={{animationDelay: '200ms'}}>
+            <div className={styles.aboutHeaderContainer} >
                 <div className={styles.aboutHeader}>
                     <h2>About Me</h2>
                 </div>
@@ -28,7 +27,7 @@ export const About = () => {
                     <p className={styles.paragraphStyle}>
                         Here are few of the teachnologies that i have been working with recently:
                     </p>
-                    <ul class={styles.skillsList}>
+                    <ul className={styles.skillsList}>
                         <li>JavaScript (ES6+)</li>
                         <li>TypeScript</li>
                         <li>React</li>
@@ -42,17 +41,6 @@ export const About = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className={styles.stackContainer}>
-                <div className={styles.imageGrid}>
-                    <IconCard proficiency={'90%'}>{<FaReact color="#fff" size="30" className={styles.techIcons}/>}</IconCard>
-                    <IconCard proficiency={'60%'}>{<FaPython color="#fff" size="30" className={styles.techIcons}/>}</IconCard>
-                    <IconCard proficiency={'60%'}>{<FaVuejs color="#fff" size="30" className={styles.techIcons}/>}</IconCard>
-                    <IconCard proficiency={'85%'}>{<FaJs color="#fff" size="30" className={styles.techIcons}/>}</IconCard>
-                    <IconCard proficiency={'60%'}>{<FaCss3 color="#fff" size="30" className={styles.techIcons}/>}</IconCard>
-                    <IconCard proficiency={'90%'}>{<FaHtml5 color="#fff" size="30" className={styles.techIcons}/>}</IconCard>
-                    <IconCard proficiency={'75%'}>{<FaBootstrap color="#fff" size="30" className={styles.techIcons}/>}</IconCard>
-                </div>
-            </div> */}
         </div>
     )
 }

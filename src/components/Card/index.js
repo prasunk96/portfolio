@@ -1,4 +1,4 @@
-import { React } from 'react';
+import React from 'react';
 import CardHeader from './CardHeader';
 import CardBody from './CardBody';
 import styles from './styles.module.css';

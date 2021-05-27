@@ -1,13 +1,10 @@
-import { react, useState } from 'react';
-import styles from './styles.css';
+import React from 'react';
+import './styles.css';
 
 export const Input = ({name, value, onChange, type}) => {
-    const [isActive, setIsActive] = useState(false);
-    const [inputValue, setInputValue] = useState('');
 
     const handleInputChange = (e) => {
         onChange(e.target.value);
-        setInputValue(e.target.value);
     }
 
     return (
@@ -22,7 +19,7 @@ export const Input = ({name, value, onChange, type}) => {
                 autoComplete="off"
             />
             <label>{name}</label>
-            <span class="focus-border">
+            <span className="focus-border">
             	<i></i>
             </span>
         </div>

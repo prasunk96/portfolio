@@ -57,6 +57,16 @@
     z-index: 0;
 }
 
+.navButtons > ul > li > a {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    padding: 10px;
+}
+
 .hamMenue {
     display: none;
 }
@@ -225,7 +235,7 @@
     width: 100%;
     flex-direction: column;
     color: white;
-    font-family: monospace;
+    font-family: var(--font-mono);
     text-align: center;
 }
 
@@ -252,7 +262,7 @@
     text-decoration-skip-ink: auto;
     color: inherit;
     position: relative;
-    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
     width: 100%;
     padding: 3px 20px 20px;
 }
@@ -265,6 +275,10 @@
 
     .hamMenue {
         display: block;
+    }
+
+    .navbar {
+        padding: 0 25px;
     }
 }
 

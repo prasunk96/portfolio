@@ -1,4 +1,4 @@
-import { react, useState } from 'react';
+import React, { useState } from 'react';
 import styles from './styles.module.css';
 import { Input } from '../../components/Input';
 import { Button } from '../../components/Button';

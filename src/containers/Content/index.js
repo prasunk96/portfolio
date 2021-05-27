@@ -1,4 +1,4 @@
-import { React } from 'react';
+import React from 'react';
 import styles from './styles.module.css';
 import ProjectCard from './ProjectCard';
 import va from '../../assets/images/vaDashboard.png';
@@ -7,7 +7,7 @@ import movie from '../../assets/images/movieDB.png';
 
 export const Content = () => {
     return (
-        <div className={styles.contentContainer}>
+        <div className={`${styles.contentContainer} animationElement fadeInFromBottom`} style={{animationDelay: '200ms'}}>
             <div className={styles.projectHeaderContainer}>
                 <div className={styles.projectsHeader}>
                     <h2>My Projects</h2>

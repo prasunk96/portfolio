@@ -56,7 +56,6 @@
 .buttonPrimary {
     border: none;
     box-shadow: none;
-    font-family: inherit;
     background-color: transparent;
     color: rgba(48,207,208,1);
     transition: .25s;

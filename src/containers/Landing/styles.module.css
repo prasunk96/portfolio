@@ -11,7 +11,6 @@
 
 .landingTitle {
     color: white;
-    font-family: 'Open Sans';
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -21,7 +20,6 @@
 
 .profileImageContianer {
     color: white;
-    font-family: 'Open Sans';
     display: flex;
     align-items: center;
     z-index: 5;
@@ -61,7 +59,6 @@
     font-size: clamp(14px, 5vw, 16px);
     margin: 0px 0px 10px 4px;
     font-weight: 400;
-    font-family: monospace;
 }
 
 .landingText > h2 {
@@ -96,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
 .metaLine > h1 {
     font-size: clamp(14px, 5vw, 16px);
     font-weight: 400;
-    font-family: monospace;
+    font-family: var(--font-mono);
     margin: 10px 0px 0px 4px;
 }
 

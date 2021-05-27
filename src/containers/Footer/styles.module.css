@@ -14,6 +14,7 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    min-height: 400px;
 }
 
 .footerLeftContainer {
@@ -23,7 +24,6 @@
     justify-content: center;
     flex-direction: row;
     flex: 2;
-    border-right: 2px solid #f50057;
 }
 
 .footerDetailsContainer {
@@ -41,13 +41,23 @@
 .footerRightContainer {
     width: 100%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     flex: 1;
     padding: 25px;
     box-sizing: border-box;
 }
+.footerRightContainer > div > h2 {
+    font-size: clamp(25px, 3vw, 40px);
+    color: #fff;
+    font-weight: 600;
+ }
+
+ .footerRightContainer > div > p {
+     color: rgb(146, 146, 146);
+     font-size: clamp(12px, 2vw, 16px);
+ }
 
 .footerFormContainer {
     display: flex;
@@ -123,10 +133,21 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    justify-content: center;
 }
 
+.socailLinkContainer > a {
+    margin-right: 30px;
+}
+
+.socailLinkContainer > a:last-of-type {
+    margin-right: 0px;
+}
+
+
 .socailLinkIcon {
-    margin-right: 10px;
     filter: drop-shadow(1px 2px 0px #f50057);
 }
 
@@ -134,11 +155,25 @@
     display: flex;
     align-items: center;
     flex-direction: row;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    justify-content: center;
+    width: 100%;
+}
+
+.emailIdContianer > a {
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .emailContainer {
     color: white;
-    font-size: 16px;
+    font-family: var(--font-mono);
+    font-size: clamp(18px, 3vw, 20px);
     padding-bottom: 5px;
     letter-spacing: 0.5px;
 }
@@ -160,9 +195,17 @@
     margin-right: 10px;
 }
 
-@media (max-width: 425px) {
+@media (min-width: 768px) {
     .footerLeftContainer {
         border-right: none;
+    }
+
+    .emailIdContianer {
+        justify-content: flex-start;
+    }
+
+    .socailLinkContainer {
+        justify-content: flex-start;
     }
 }
 
@@ -183,4 +226,9 @@
 
 .customShapeDividerBottomFooter .shapeFillFooter {
     fill: #252627;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px 0px 10px;
+    line-height: 1.1;
 }

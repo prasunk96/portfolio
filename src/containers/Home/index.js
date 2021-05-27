@@ -1,4 +1,4 @@
-import { React } from 'react';
+import { React, useState } from 'react';
 import styles from './styles.module.css';
 import { Landing } from '../Landing';
 import { About } from '../About';
@@ -7,19 +7,20 @@ import { Footer } from '../Footer';
 import Navbar from '../../components/Navbar';
 
 export const Home = () => {
+    const [isNavbarLoaded, setIsNavbarLoaded] = useState(false);
     return (
         <div className={styles.homeContainer}>
-            <div className={styles.landing}>
-                <Navbar />
-                <Landing />
+            <div id="landing" className={styles.landing}>
+                <Navbar setIsNavbarLoaded={setIsNavbarLoaded} />
+                <Landing isNavbarLoaded={isNavbarLoaded} />
             </div>
-            <div className={styles.about}>
+            <div id="about" className={styles.about}>
                 <About />
             </div>
-            <div className={styles.content}>
+            <div id="work" className={styles.content}>
                 <Content />
             </div>
-            <div className={styles.footer}>
+            <div id="contact" className={styles.footer}>
                 <Footer />
             </div>
             <div id="hamMenueOverlay" className={styles.parentOverlay}>&nbsp;</div>
