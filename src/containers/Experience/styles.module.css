@@ -1,0 +1,191 @@
+.experienceContainer {
+    background-color: var(--powder-pink);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 75px;
+    box-sizing: border-box;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    max-width: 900px;
+}
+
+.experienceHeader {
+    margin-top: 0px;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.experienceHeader > h2 {
+    color: #FFF;
+    font-size: clamp(26px,5vw,32px);
+    margin: 0px;
+}
+
+.experienceSection {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 30px;
+    min-height: 350px;
+    max-width: 900px;
+    border-radius: 5px;
+    padding: 20px;
+    backdrop-filter: blur(4px);
+    box-shadow: var(--card-shadow);
+    background: var(--card-background-gradient);
+}
+
+.tabsListContainer {
+    width: 100%;
+    height: fit-content;
+    justify-content: flex-start;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: none;
+    border-right: 2px solid var(--dark-powder-pink);
+}
+
+.tabsButton {
+    position: relative;
+    width: 100%;
+    background: transparent;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    height: clamp(30px, 2vw, 40px);
+    color: white;
+    transition: background-color 200ms ease-in 50ms;
+    font-size: clamp(12px,2vw,16px);
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tabsButton:hover {
+    background-color: var(--dark-powder-pink-opaque);
+}
+
+.activetabsButton {
+    position: absolute;
+    border: 0;
+    right: -2px;
+    height: 100%;
+    border-right: 2px solid #fff;
+    transition: opacity 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 100ms;
+}
+
+.tabDetailsContainer {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    gap: 10px;
+    opacity: 1;
+    transition: opacity 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 100ms;
+}
+
+.tabDetailsContainer p {
+    margin: 0px;
+    width: 100%;
+    text-align: left;
+}
+
+.tabDescriptionHeaderContainer {
+    align-items: center;
+    justify-content: start;
+    display: grid;
+    grid-template-rows: 2rem 1rem;
+}
+
+.tabDescriptionHeaderContainer > h3 {
+    color: white;
+    text-align: left;
+    transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+}
+
+.tabDescriptionHeaderContainer > p {
+    color: var(--dark-powder-pink);
+    font-weight:600;
+    transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+}
+
+.tabDescriptionContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.tabDescriptionContainer ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-size: clamp(14px, 1vw, 18px);
+}
+
+.tabDescriptionContainer ul li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #FFF;
+    transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+}
+
+.tabDescriptionContainer ul li::before {
+    content: "»";
+    position: absolute;
+    left: 0px;
+    color: #fff;
+    font-size: 16px;
+ }
+
+@media (max-width: 768px) {
+
+    .experienceContainer {
+        padding: 20px;
+    }
+
+    .experienceSection {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .tabsListContainer {
+        border-right: none;
+        border-bottom: 2px solid var(--dark-powder-pink);
+        align-items: center;
+    }
+
+    .tabDetailsContainer {
+        grid-template-rows: 70px auto;
+    }
+
+    .tabsButton {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        flex: 1;
+    }
+
+    .activetabsButton {
+        width: 100%;
+        right: 0;
+        bottom: -2px;
+        border-right: none;
+        border-bottom: 2px solid #fff;
+    }
+}

@@ -42,7 +42,8 @@
     text-decoration-skip-ink: auto;
     position: relative;
     transition: var(--common-transition);
-    color: var(--dark-black-grey);
+    color: var(--dark-powder-pink);
+    font-weight: 700;
 }
 
 .paragraphStyle > a::after {
@@ -52,13 +53,13 @@
     height: 1px;
     position: relative;
     bottom: 0.10em;
-    background-color: var(--dark-black-grey);
+    background-color: var(--dark-powder-pink);
     transition: var(--common-transition);
     opacity: 0.5;
 }
 
 .paragraphStyle > a:hover, .paragraphStyle > a:focus, .paragraphStyle > a:active {
-    color: var(--dark-black-grey);
+    color: var(--dark-powder-pink);
     outline: 0px;
 }
 
@@ -236,7 +237,7 @@
 }
 
 .skillsList > li::before {
-    content: "▹";
+    content: "»";
     position: absolute;
     left: 0px;
     color: #fff;

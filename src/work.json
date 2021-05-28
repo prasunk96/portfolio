@@ -1,0 +1,24 @@
+[
+    {
+        "company": "GSLab",
+        "positon": "Software Engineer @ GSLab",
+        "duration": "July 2019 - Present",
+        "details": [
+            "Worked on developing a digital workplace that brings multiple employees daily use enterprise application under one dashboard for employees. Integrated outlook and a conferencing solution developed chat and notification module using ReactJS, JavaScript, react-router.",
+            "Developed a new interface for our client's product POM(Proactive Outreach Manager) using ReactJS, JavaScript to help the product smoothly migrate from flash to a modern and fast front-end framework.",
+            "Worked on a healthcare domain product enabling a hospital to manage its patients, staff and hospital resources through one single application allowing it to share information across various branches helping them to manage patients requirement, staff schedule and emergencies from a single application efficiently. Worked with VueJS and TypeScript for this application.",
+            "Communicate with multi-disciplinary teams of engineers, designers, product owners/clients, understand requirements, estimates tasks and do planning daily."
+        ]
+    },
+    {
+        "company": "Internship",
+        "positon": "Software Engineer Intern @ GSLab",
+        "duration": "August 2018 - June 2019",
+        "details": [
+            "Worked on developing a digital workplace that brings multiple employees daily use enterprise application under one dashboard for employees. Integrated outlook and a conferencing solution developed chat and notification module using ReactJS, JavaScript, react-router.",
+            "Developed a new interface for our client's product POM(Proactive Outreach Manager) using ReactJS, JavaScript to help the product smoothly migrate from flash to a modern and fast front-end framework.",
+            "Worked on a healthcare domain product enabling a hospital to manage its patients, staff and hospital resources through one single application allowing it to share information across various branches helping them to manage patients requirement, staff schedule and emergencies from a single application efficiently. Worked with VueJS and TypeScript for this application.",
+            "Communicate with multi-disciplinary teams of engineers, designers, product owners/clients, understand requirements, estimates tasks and do planning daily."
+        ]
+    }
+]

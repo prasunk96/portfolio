@@ -1,38 +1,38 @@
 .animationElement {
-    opacity: 0;
-    position: relative;
-    animation-duration: 1000ms;
-    animation-fill-mode: both;
-  }
-  
-  .animationElement.fadeInFromBottom.inView {
-    opacity: 1;
-    animation-name: fadeInBottom;
-  }
-
-@keyframes fadeInBottom {
-    from {
-        opacity: 0;
-        transform: translateY(50%);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  opacity: 0;
+  position: relative;
+  animation-duration: 1000ms;
+  animation-fill-mode: both;
 }
 
-  .animationElement.fadeInFromTop.inView {
-    opacity: 1;
-    animation-name: fadeInTop;
+.animationElement.fadeInFromBottom.inView {
+  opacity: 1;
+  animation-name: fadeInBottom;
+}
+
+@keyframes fadeInBottom {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
   }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animationElement.fadeInFromTop.inView {
+  opacity: 1;
+  animation-name: fadeInTop;
+}
 
 @keyframes fadeInTop {
-    from {
-        opacity: 0;
-        transform: translateY(-50%);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

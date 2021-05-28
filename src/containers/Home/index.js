@@ -5,6 +5,7 @@ import { About } from '../About';
 import { Content } from '../Content';
 import { Footer } from '../Footer';
 import Navbar from '../../components/Navbar';
+import Experience from '../Experience';
 
 export const Home = () => {
     const [isNavbarLoaded, setIsNavbarLoaded] = useState(false);
@@ -16,6 +17,9 @@ export const Home = () => {
             </div>
             <div id="about" className={styles.about}>
                 <About />
+            </div>
+            <div id="experience" className={styles.experience}>
+                <Experience />
             </div>
             <div id="work" className={styles.content}>
                 <Content />

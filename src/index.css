@@ -19,5 +19,9 @@ html, body {
   --light-grey: #929292;
   --navbar-background: #252627e5;
   --navbar-shadow: #141414bf;
+  --dark-powder-pink: #850a35;
+  --dark-powder-pink-opaque: #850a3540;
+  --card-shadow: 5px 5px 5px -3px #930a3a91;
+  --card-background-gradient: linear-gradient(to right bottom, #bf03457d, #2526272b);
   --common-transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
 }
