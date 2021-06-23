@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e4c17409.chunk.css",
+    "main.js": "/portfolio/static/js/main.98a75a11.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.98a75a11.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.6de05d5c.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.6de05d5c.js.map",
+    "static/js/2.5c786bd6.chunk.js": "/portfolio/static/js/2.5c786bd6.chunk.js",
+    "static/js/2.5c786bd6.chunk.js.map": "/portfolio/static/js/2.5c786bd6.chunk.js.map",
+    "static/js/3.6afa9186.chunk.js": "/portfolio/static/js/3.6afa9186.chunk.js",
+    "static/js/3.6afa9186.chunk.js.map": "/portfolio/static/js/3.6afa9186.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.e4c17409.chunk.css.map": "/portfolio/static/css/main.e4c17409.chunk.css.map",
+    "static/js/2.5c786bd6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5c786bd6.chunk.js.LICENSE.txt",
+    "static/media/me.43489fef.avif": "/portfolio/static/media/me.43489fef.avif",
+    "static/media/octoSearch.a0826e6d.png": "/portfolio/static/media/octoSearch.a0826e6d.png",
+    "static/media/vaNew.891261dd.png": "/portfolio/static/media/vaNew.891261dd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6de05d5c.js",
+    "static/js/2.5c786bd6.chunk.js",
+    "static/css/main.e4c17409.chunk.css",
+    "static/js/main.98a75a11.chunk.js"
+  ]
+}
