@@ -148,7 +148,14 @@
 
 
 .socailLinkIcon {
+    color: #fff;
     filter: drop-shadow(1px 2px 0px var(--powder-pink));
+    transition: all 300ms;
+}
+
+.socailLinkIcon:hover {
+    color: var(--powder-pink);
+    filter: drop-shadow(1px 2px 0px #fff);
 }
 
 .emailIdContianer {
@@ -176,6 +183,10 @@
     font-size: clamp(18px, 3vw, 20px);
     padding-bottom: 5px;
     letter-spacing: 0.5px;
+}
+
+.emailContainer:hover {
+    text-decoration: underline;
 }
 
 .footerNoteContainer {

@@ -1,9 +1,8 @@
 import React from 'react';
 import styles from './styles.module.css';
 import ProjectCard from './ProjectCard';
-import va from '../../assets/images/vaDashboard.png';
-import movieDB from '../../assets/images/mdbDashboard.png';
-import movie from '../../assets/images/movieDB.png';
+import vaNew from '../../assets/images/vaNew.png';
+import octoSearch from '../../assets/images/octoSearch.png';
 
 export const Content = () => {
     return (
@@ -14,9 +13,16 @@ export const Content = () => {
                 </div>
             </div>
             <div className={styles.projectsContainer}>
-                <ProjectCard image={va} title='VisualAlgo' text={`A website built to help visualize algorithms. currently it's in development and has sorting alogorithms in place.`} />
-                <ProjectCard image={movieDB} title='MovieDB' text={`A simple website to see list of movies, see details about it and perform filter on them`} />
-                <ProjectCard image={movie} title='StockChartApp' text={`An App build for learning purpose using react native and google firebase. It has google oAuth as login mechanism and user can search for a stock add it to its watchlist and see the chart for the same.`} />
+                <ProjectCard
+                    repo="https://github.com/prasunk96/visual-algo"
+                    url="https://prasunk96.github.io/visual-algo/"
+                    tech={['ReactJS', 'JavaScript', 'CSS3']} image={vaNew} title='VisualAlgo'
+                    text={`Simple single page application that let you to visualise alogorithms. Currently it has sorting algorithms available for visualization. plannig to add more algorithms in future.`} />
+                <ProjectCard
+                    repo="https://github.com/prasunk96/octo-search"
+                    url="https://octo-search.netlify.app/"
+                    tech={['VueJS', 'GitHub API', 'JavaScript', 'Vuex', 'Vue Router', 'CSS3']} image={octoSearch} title='Octo-Search'
+                    text={`An application to see your github repository and profile with a different take on UI. Built using GitHub API along with Vue, Vue Router and Vuex.`} />
             </div>
         </div>
     )
