@@ -86,10 +86,10 @@ const Navbar = ({ setIsNavbarLoaded }) => {
                         <aside id="hamMenueList" aria-hidden="true" tabIndex="-1" className={styles.hamMenueList}>
                             <nav>
                                 <ul>
-                                    <li><a href="#about">About</a></li>
-                                    <li><a href="#experience">Experience</a></li>
-                                    <li><a href="#work">Work</a></li>
-                                    <li><a href="#contact">Contact</a>
+                                    <li onClick={handleHamClick}><a href="#about">About</a></li>
+                                    <li onClick={handleHamClick}><a href="#experience">Experience</a></li>
+                                    <li onClick={handleHamClick}><a href="#work">Work</a></li>
+                                    <li onClick={handleHamClick}><a href="#contact">Contact</a>
                                     </li>
                                 </ul>
                             </nav>

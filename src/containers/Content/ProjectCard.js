@@ -19,10 +19,10 @@ const ProjectCard = ({image, title, text, tech, repo, url}) => {
                 <div className={styles.projectDescWrapper}>
                     <h2>{title}</h2>
                     <div className={styles.projectButtonsContianer}>
-                            <a href={repo} target="_blank" rel="noopener noreferrer" className={styles.projectButton}>
+                            <a href={url} target="_blank" rel="noopener noreferrer" className={styles.projectButton}>
                                 <FaExternalLinkSquareAlt size="25" className={styles.projectButtonIcon} />
                             </a>  
-                            <a href={url} target="_blank" rel="noopener noreferrer" className={styles.projectButton}>
+                            <a href={repo} target="_blank" rel="noopener noreferrer" className={styles.projectButton}>
                                 <FaGithub size="25" className={styles.projectButtonIcon} />
                             </a>
                         </div>
