@@ -15,10 +15,11 @@
         "positon": "Software Engineer Intern @ GSLab",
         "duration": "August 2018 - June 2019",
         "details": [
-            "Worked on developing a digital workplace that brings multiple employees daily use enterprise application under one dashboard for employees. Integrated outlook and a conferencing solution developed chat and notification module using ReactJS, JavaScript, react-router.",
-            "Developed a new interface for our client's product POM(Proactive Outreach Manager) using ReactJS, JavaScript to help the product smoothly migrate from flash to a modern and fast front-end framework.",
-            "Worked on a healthcare domain product enabling a hospital to manage its patients, staff and hospital resources through one single application allowing it to share information across various branches helping them to manage patients requirement, staff schedule and emergencies from a single application efficiently. Worked with VueJS and TypeScript for this application.",
-            "Communicate with multi-disciplinary teams of engineers, designers, product owners/clients, understand requirements, estimates tasks and do planning daily."
+            "Went under training for ReactJS, Redux, JavaScript worked alongside other team members on an email application ﬁxing bugs and helping with testing.",
+            "Worked closely with other team members to identify and resolve bugs on an email application.",
+            "Worked on chat module and refactored the code to optimize performance for a enterpirse application application.",
+            "Implemented POC's for project requirements, got exposure to GraphQL, Materail UI, PreactJS and many other front-end libraries and framworks.",
+            "Got the opportunity to be part of Agile team, actively praticipated in scrums, planning, retrospective, refinement, estimations etc."
         ]
     }
 ]

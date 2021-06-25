@@ -16,7 +16,7 @@ export const Content = () => {
                 <ProjectCard
                     repo="https://github.com/prasunk96/visual-algo"
                     url="https://prasunk96.github.io/visual-algo/"
-                    tech={['ReactJS', 'JavaScript', 'CSS3']} image={vaNew} title='VisualAlgo'
+                    tech={['ReactJS', 'JavaScript', 'Redux', 'CSS3']} image={vaNew} title='VisualAlgo'
                     text={`Simple single page application that let you to visualise alogorithms. Currently it has sorting algorithms available for visualization. plannig to add more algorithms in future.`} />
                 <ProjectCard
                     repo="https://github.com/prasunk96/octo-search"

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.module.css';
 import '../../globalStyles.css';
-
+import { Button } from '../../components/Button';
 
 export const Landing = ({ isNavbarLoaded }) => {
     return (
@@ -18,6 +18,9 @@ export const Landing = ({ isNavbarLoaded }) => {
                 </div>
                 <div className={`${styles.metaLine} animationElement fadeInFromBottom`} style={{animationDelay: '1100ms'}}>
                     <h1>Front End Developer / Web Developer</h1>
+                </div>
+                <div className={`${styles.resumeButtonContainer} animationElement fadeInFromBottom`} style={{animationDelay: '1100ms'}}>
+                    <Button label={'Resume'} mailTo={null} link={'https://drive.google.com/file/d/1h6ywy2N3SGmnMy8Zvhkp1fbmUyzbYTpL/view?usp=sharing'}></Button>
                 </div>
             </div>
             <div className={styles.customShapeDividerBottom}>

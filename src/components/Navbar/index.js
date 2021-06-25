@@ -72,7 +72,7 @@ const Navbar = ({ setIsNavbarLoaded }) => {
                     <ul>
                         <li className={`animationElement fadeInFromTop`} style={{animationDelay: '100ms'}}><a href="#about">About</a></li>
                         <li className={`animationElement fadeInFromTop`} style={{animationDelay: '200ms'}}><a href="#experience">Experience</a></li>
-                        <li className={`animationElement fadeInFromTop`} style={{animationDelay: '300ms'}}><a href="#work">Work</a></li>
+                        <li className={`animationElement fadeInFromTop`} style={{animationDelay: '300ms'}}><a href="#projects">Projects</a></li>
                         <li className={`animationElement fadeInFromTop`} style={{animationDelay: '400ms'}}><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -88,7 +88,7 @@ const Navbar = ({ setIsNavbarLoaded }) => {
                                 <ul>
                                     <li onClick={handleHamClick}><a href="#about">About</a></li>
                                     <li onClick={handleHamClick}><a href="#experience">Experience</a></li>
-                                    <li onClick={handleHamClick}><a href="#work">Work</a></li>
+                                    <li onClick={handleHamClick}><a href="#projects">Projects</a></li>
                                     <li onClick={handleHamClick}><a href="#contact">Contact</a>
                                     </li>
                                 </ul>
