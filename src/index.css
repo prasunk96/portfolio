@@ -8,20 +8,21 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
-  background-color: #f50057;
+  background-color: #094074;
 }
 
 :root {
   --font-sans: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
   --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
-  --powder-pink: #F50057;
+  --powder-pink: #094074;
   --dark-black-grey: #252627;
   --light-grey: #929292;
   --navbar-background: #252627e5;
   --navbar-shadow: #141414bf;
-  --dark-powder-pink: #850a35;
-  --dark-powder-pink-opaque: #850a3540;
-  --card-shadow: 5px 5px 5px -3px #930a3a91;
-  --card-background-gradient: linear-gradient(to right bottom, #bf03457d, #2526272b);
+  --dark-powder-pink: #042747;
+  --dark-powder-pink-opaque: #083b6b5e;
+  --card-shadow: 5px 5px 5px -3px #04274793;
+  --card-background-gradient: linear-gradient(to right bottom, #0661b68f, #2729292b);
   --common-transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  --profile-pick-backdrop: linear-gradient(to right bottom, rgba(33, 111, 184, 0.959), rgba(39, 41, 41, 0.26));
 }

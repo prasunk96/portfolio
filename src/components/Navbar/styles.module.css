@@ -67,6 +67,10 @@
     padding: 10px;
 }
 
+.navButtons > ul > li > a:hover {
+    color:  rgba(33, 111, 184, 0.959);
+}
+
 .hamMenue {
     display: none;
 }
@@ -265,6 +269,10 @@
     transition: var(--common-transition);
     width: 100%;
     padding: 3px 20px 20px;
+}
+
+.hamMenueList ul li a:hover {
+    color: var(--dark-black-grey);
 }
 
 @media (max-width: 768px) {

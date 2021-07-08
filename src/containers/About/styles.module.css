@@ -91,7 +91,7 @@
 .imageGrid::after {
     display: inline-block;
     content: " ";
-    background: linear-gradient(to right bottom, rgb(245 0 87), rgb(123 7 49 / 89%));
+    background: var(--profile-pick-backdrop);
     position: absolute;
     height: 100%;
     width: 100%;

@@ -28,7 +28,7 @@ export const About = () => {
                         Here are few of the teachnologies that i have been working with recently:
                     </p>
                     <ul className={styles.skillsList}>
-                        <li>JavaScript (ES6+)</li>
+                        <li>JavaScript</li>
                         <li>TypeScript</li>
                         <li>React</li>
                         <li>Vue</li>
