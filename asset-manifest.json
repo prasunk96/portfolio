@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.ede49466.chunk.css",
-    "main.js": "/static/js/main.6cae17a5.chunk.js",
-    "main.js.map": "/static/js/main.6cae17a5.chunk.js.map",
+    "main.css": "/static/css/main.5be8bb50.chunk.css",
+    "main.js": "/static/js/main.3472d060.chunk.js",
+    "main.js.map": "/static/js/main.3472d060.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e448596b.js",
     "runtime-main.js.map": "/static/js/runtime-main.e448596b.js.map",
     "static/js/2.1d8d8375.chunk.js": "/static/js/2.1d8d8375.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.6afa9186.chunk.js": "/static/js/3.6afa9186.chunk.js",
     "static/js/3.6afa9186.chunk.js.map": "/static/js/3.6afa9186.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ede49466.chunk.css.map": "/static/css/main.ede49466.chunk.css.map",
+    "static/css/main.5be8bb50.chunk.css.map": "/static/css/main.5be8bb50.chunk.css.map",
     "static/js/2.1d8d8375.chunk.js.LICENSE.txt": "/static/js/2.1d8d8375.chunk.js.LICENSE.txt",
     "static/media/me.43489fef.avif": "/static/media/me.43489fef.avif",
     "static/media/octoSearch.a0826e6d.png": "/static/media/octoSearch.a0826e6d.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.e448596b.js",
     "static/js/2.1d8d8375.chunk.js",
-    "static/css/main.ede49466.chunk.css",
-    "static/js/main.6cae17a5.chunk.js"
+    "static/css/main.5be8bb50.chunk.css",
+    "static/js/main.3472d060.chunk.js"
   ]
 }
