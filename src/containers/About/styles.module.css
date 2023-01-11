@@ -80,8 +80,6 @@
 .imageGrid {
     height: 100%;
     width: 100%;
-    max-width: 300px;
-    max-height: 300px;
     border-radius: 4px;
     box-shadow: 0 10px 30px -15px var(--dark-black-grey);
     position: relative;

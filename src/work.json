@@ -1,8 +1,29 @@
 [
     {
+        "company": "Nobroker",
+        "positon": "Software Engineer Intern @ Nobroker",
+        "duration": "Dec 2021 - Present",
+        "details": [
+            "Working with LD team as a frontend developer responsible for developing and delivering complex UI features to match business use cases and improve user experience.",
+            "Designed and implemented business critical verification dashboard in a limited time frame to speed-up new user verification and on boarding. no of verification done per minute increase.",
+            "Implemented a hybrid view enabled pyp form with back & forth navigation to enable integration with hood app pyp flow allowing user to post property on both platforms.",
+            "Implemented a feature to prompting user to take owners contact while navigating property images resulting in a increase of 8% in get owners contact impressions.",
+            "Developed and integrated property nudges resulting in an increase of property impressions by 50%.",
+            "Designed and implemented step based non-linearly growing budget/price slider filter to resolve the issue of price range selection.",
+            "Worked on optimizing video carousels, performance score improved 35 to 65, in doing so also saved cost on CDN.",
+            "Owned smart-search implementation, improved application performance by reducing page size resulting in <1sec TBT and also streamlined api calls to save on network bandwidth.",
+            "Worked on homepage redesign implementing complex ui components resulting in an avg increase of 123% in lead creation across home services.",
+            "Implemented custom component to capture leads for Home Services resulting in a 2% conversion.",
+            "Implemented custom tour guide component to meet design requirements.",
+            "Experiment with google styled maps, created custom map and integrated it with map view.",
+            "Worked on POC to redesign map view with custom markers showing price and hover effect to highlight property card.",
+            "Worked on implementing a library of custom components to be used across teams improving consistency and saving development effort."
+        ]
+    },
+    {
         "company": "GSLab",
         "positon": "Software Engineer @ GSLab",
-        "duration": "July 2019 - Present",
+        "duration": "July 2019 - Nov 2021",
         "details": [
             "Worked on developing a digital workplace that brings multiple employees daily use enterprise application under one dashboard for employees. Integrated outlook and a conferencing solution developed chat and notification module using ReactJS, JavaScript, react-router.",
             "Developed a new interface for our client's product POM(Proactive Outreach Manager) using ReactJS, JavaScript to help the product smoothly migrate from flash to a modern and fast front-end framework.",

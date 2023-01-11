@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './styles.module.css';
-import me from '../../assets/images/me.avif';
+import me from '../../assets/images/me2b.jpg';
 import '../../globalStyles.css';
 
 
@@ -20,7 +20,7 @@ export const About = () => {
                         in high school when i learnt how to use marquee in html and since then this has been a journey of continious learning and improvements.
                     </p>
                     <p className={styles.paragraphStyle}>
-                        Fast-forward, I completed my bachelors in Computer Science and took my first role as a Software Engineer at <a href="https://www.gslab.com" rel="noopener noreferrer" target="_blank" alias="gslab">GSLab</a>. I had the priveledge
+                        I completed my bachelors in Computer Science and took my first role as a Software Engineer at <a href="https://www.gslab.com" rel="noopener noreferrer" target="_blank" alias="gslab">GSLab</a>. I had the priveledge
                         to work on enterprise level applications such as campaign managment tool for organizations, creating a digital workspace environment that organizes,
                         automates and unifies work.
                     </p>

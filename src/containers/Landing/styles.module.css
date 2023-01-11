@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .customShapeDividerBottom {
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     width: 100%;
     overflow: hidden;

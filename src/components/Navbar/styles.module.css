@@ -68,7 +68,7 @@
 }
 
 .navButtons > ul > li > a:hover {
-    color:  rgba(33, 111, 184, 0.959);
+    color:  var(--powder-pink);
 }
 
 .hamMenue {

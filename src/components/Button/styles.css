@@ -43,7 +43,7 @@
 }
 
 .button:hover {
-    background-color: var(--dark-powder-pink);
+    background-color: var(--button-hover-overlay);
     filter: drop-shadow(3px 3px 0px var(--powder-pink));
 }
 
