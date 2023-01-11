@@ -20,9 +20,13 @@ export const About = () => {
                         in high school when i learnt how to use marquee in html and since then this has been a journey of continious learning and improvements.
                     </p>
                     <p className={styles.paragraphStyle}>
-                        Fast-forward to today, I completed my bachelors in Computer Science and currently working as a Software Engineer at <a href="https://www.gslab.com/" rel="noopener noreferrer" target="_blank" alias="gslab">GSLab</a>. I have had the priveledge
+                        Fast-forward, I completed my bachelors in Computer Science and took my first role as a Software Engineer at <a href="https://www.gslab.com" rel="noopener noreferrer" target="_blank" alias="gslab">GSLab</a>. I had the priveledge
                         to work on enterprise level applications such as campaign managment tool for organizations, creating a digital workspace environment that organizes,
                         automates and unifies work.
+                    </p>
+                    <p className={styles.paragraphStyle}>
+                        Fast-forward to today, I am currently working as a Software Engineer at <a href="https://www.nobroker.in" rel="noopener noreferrer" target="_blank" alias="gslab">NoBroker</a>. I have been working on listing and discovery part of nobroker,
+                        working on features creating value for business. In a short span of time i have learned a lot of new things and the i must say the startup environment really excites me.
                     </p>
                     <p className={styles.paragraphStyle}>
                         Here are few of the teachnologies that i have been working with recently:
@@ -31,8 +35,10 @@ export const About = () => {
                         <li>JavaScript</li>
                         <li>TypeScript</li>
                         <li>React</li>
-                        <li>Vue</li>
-                        <li>Python</li>
+                        <li>Tailwindcss</li>
+                        <li>ReduxSaga</li>
+                        <li>Styled Maps</li>
+                        <li>Dialog Flow</li>
                     </ul>
                 </div>
                 <div className={styles.stackContainer}>
