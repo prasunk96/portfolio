@@ -20,7 +20,7 @@ export const Landing = ({ isNavbarLoaded }) => {
                     <h1>Front End Developer / Web Developer</h1>
                 </div>
                 <div className={`${styles.resumeButtonContainer} animationElement fadeInFromBottom`} style={{animationDelay: '1100ms'}}>
-                    <Button label={'Resume'} mailTo={null} link={'https://drive.google.com/file/d/1UcJheFqhbMbLsRfA2LBo-LQ1yf6A9qpM/view?usp=sharing'}></Button>
+                    <Button label={'Resume'} mailTo={null} link={'https://drive.google.com/file/d/1kUDVBjuV1P8c--FZgUeSdr25J1QulCSU/view?usp=sharing'}></Button>
                 </div>
             </div>
             <div className={styles.customShapeDividerBottom}>
