@@ -97,7 +97,7 @@ const Navbar = ({ setIsNavbarLoaded }) => {
 
             {/* Resume Button */}
             <a
-              href="https://drive.google.com/file/d/1rF-BaQzPNfHuNJZS1v-9RQgDhxOg2xJP/view"
+              href="https://drive.google.com/file/d/1kUDVBjuV1P8c--FZgUeSdr25J1QulCSU/view"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary text-sm px-4 py-2 opacity-0 animate-fade-in-down"
@@ -182,7 +182,7 @@ const Navbar = ({ setIsNavbarLoaded }) => {
               style={{ transitionDelay: `${navItems.length * 50}ms` }}
             >
               <a
-                href="https://drive.google.com/file/d/1rF-BaQzPNfHuNJZS1v-9RQgDhxOg2xJP/view"
+                href="https://drive.google.com/file/d/1kUDVBjuV1P8c--FZgUeSdr25J1QulCSU/view"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary text-base"
