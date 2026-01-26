@@ -1,11 +1,21 @@
 {
   "short_name": "PK",
-  "name": "Prasun Kumar",
+  "name": "Prasun Kumar - Frontend Engineer",
   "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
     },
     {
       "src": "logo192.png",
@@ -20,6 +30,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#6366f1",
+  "background_color": "#0f172a"
 }

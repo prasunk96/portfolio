@@ -4,30 +4,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^6.4.2",
-    "@testing-library/react": "^14.2.1",
-    "@testing-library/user-event": "^14.5.2",
-    "jquery": "^3.7.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-icons": "^5.3.0",
-    "react-scripts": "5.0.1",
-    "react-vertical-timeline-component": "^3.6.0",
-    "web-vitals": "^3.5.2"
+    "react-icons": "^5.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "start": "rsbuild dev",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview",
+    "predeploy": "yarn build",
     "deploy": "echo prasunkumar.dev > ./build/CNAME && gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
@@ -42,6 +28,13 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "@rsbuild/core": "^1.7.2",
+    "@rsbuild/plugin-react": "^1.4.3",
+    "autoprefixer": "^10.4.16",
+    "gh-pages": "^6.1.1",
+    "png-to-ico": "^3.0.1",
+    "postcss": "^8.4.31",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^3.4.0"
   }
 }
