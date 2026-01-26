@@ -1,46 +1,66 @@
 [
-    {
-        "company": "Nobroker",
-        "positon": "Software Engineer Intern @ Nobroker",
-        "duration": "Dec 2021 - Present",
-        "details": [
-            "Working with LD team as a frontend developer responsible for developing and delivering complex UI features to match business use cases and improve user experience.",
-            "Designed and implemented business critical verification dashboard in a limited time frame to speed-up new user verification and on boarding. no of verification done per minute increase.",
-            "Implemented a hybrid view enabled pyp form with back & forth navigation to enable integration with hood app pyp flow allowing user to post property on both platforms.",
-            "Implemented a feature to prompting user to take owners contact while navigating property images resulting in a increase of 8% in get owners contact impressions.",
-            "Developed and integrated property nudges resulting in an increase of property impressions by 50%.",
-            "Designed and implemented step based non-linearly growing budget/price slider filter to resolve the issue of price range selection.",
-            "Worked on optimizing video carousels, performance score improved 35 to 65, in doing so also saved cost on CDN.",
-            "Owned smart-search implementation, improved application performance by reducing page size resulting in <1sec TBT and also streamlined api calls to save on network bandwidth.",
-            "Worked on homepage redesign implementing complex ui components resulting in an avg increase of 123% in lead creation across home services.",
-            "Implemented custom component to capture leads for Home Services resulting in a 2% conversion.",
-            "Implemented custom tour guide component to meet design requirements.",
-            "Experiment with google styled maps, created custom map and integrated it with map view.",
-            "Worked on POC to redesign map view with custom markers showing price and hover effect to highlight property card.",
-            "Worked on implementing a library of custom components to be used across teams improving consistency and saving development effort."
-        ]
-    },
-    {
-        "company": "GSLab",
-        "positon": "Software Engineer @ GSLab",
-        "duration": "July 2019 - Nov 2021",
-        "details": [
-            "Worked on developing a digital workplace that brings multiple employees daily use enterprise application under one dashboard for employees. Integrated outlook and a conferencing solution developed chat and notification module using ReactJS, JavaScript, react-router.",
-            "Developed a new interface for our client's product POM(Proactive Outreach Manager) using ReactJS, JavaScript to help the product smoothly migrate from flash to a modern and fast front-end framework.",
-            "Worked on a healthcare domain product enabling a hospital to manage its patients, staff, and hospital resources through one single application, allowing it to share information across various branches, helping them manage patients' requirements, staff schedules, and emergencies from a single application efficiently. Worked with VueJS and TypeScript for this application.",
-            "Communicate with multi-disciplinary teams of engineers, designers, product owners/clients, understand requirements, estimates tasks and do planning daily."
-        ]
-    },
-    {
-        "company": "Internship",
-        "positon": "Software Engineer Intern @ GSLab",
-        "duration": "August 2018 - June 2019",
-        "details": [
-            "Went under training for ReactJS, Redux, JavaScript worked alongside other team members on an email application ﬁxing bugs and helping with testing.",
-            "Worked closely with other team members to identify and resolve bugs on an email application.",
-            "Worked on chat module and refactored the code to optimize performance for an enterprise application.",
-            "Implemented POC's for project requirements, got exposure to GraphQL, Material UI, PreactJS and many other front-end libraries and frameworks.",
-            "Got the opportunity to be part of an Agile team, actively participated in scrums, planning, retrospective, refinement, estimations etc.."
-        ]
-    }
+  {
+    "company": "Clear",
+    "position": "Frontend Engineer III",
+    "duration": "Mar 2025 - Present",
+    "location": "Bangalore",
+    "highlights": [
+      "Spearheaded the development of a high-performance design system and component library, replacing a bottlenecked legacy system. Achieved a 90% bundle size reduction.",
+      "Architected and implemented the recon framework, reducing development time from weeks to days and increasing code reusability by 80%.",
+      "Architected and led a secure deep-linking feature, eliminating manual onboarding for external parties and reducing UAM provisioning time by 90%.",
+      "Leading the IDT Recon frontend team, managing end-to-end feature deliveries and mentoring freshers.",
+      "Implemented critical release workflow and Jenkins pipeline for custom dev/qa environments across regions and apps.",
+      "Successfully migrated build system from Webpack to Rspack, achieving 94% reduction in build time and 91% improvement in dev server start time."
+    ]
+  },
+  {
+    "company": "Clear",
+    "position": "Frontend Engineer II",
+    "duration": "Dec 2023 - Mar 2025",
+    "location": "Bangalore",
+    "highlights": [
+      "Designed and implemented a versatile data browser component powered by TanStack, enabling advanced query filters and rendering capabilities.",
+      "Orchestrated the phased decommissioning of the GST-shell micro-frontend, optimizing application initial load time.",
+      "Delivered the critical Table 4 implementation end-to-end within stringent timelines, enhancing GSTR-3B filing process and driving revenue growth.",
+      "Enhanced design library package performance by reducing gzip size by 40%, improving page load times.",
+      "Identified and fixed issues in open source library react-datetime-picker, contributing back to the community."
+    ]
+  },
+  {
+    "company": "NoBroker",
+    "position": "Senior Software Engineer",
+    "duration": "Nov 2021 - Nov 2023",
+    "location": "Bangalore",
+    "highlights": [
+      "Increased user conversion for plan pages by 4.5% through performance and UX optimization.",
+      "Implemented Google-styled map view POC, increasing map interactions by 20%, search-to-contact conversion by 24%, and map view contacts by 70%.",
+      "Reduced CLS score from 0.3 to 0.1 on list pages, significantly improving Core Web Vitals.",
+      "Implemented Next.js client logger using Winston for error tracking on checkout pages.",
+      "Reduced CDN cost by 25% by optimizing video carousels and improving performance score from 35 to 65.",
+      "Increased lead creation by 123% by re-implementing homepage with improved UX for festive season.",
+      "Owned smart property search chatbot implementation using Google Dialogflow, achieving <1 second TBT."
+    ]
+  },
+  {
+    "company": "GSLab",
+    "position": "Senior Software Engineer",
+    "duration": "Jul 2021 - Nov 2021",
+    "location": "Pune",
+    "highlights": [
+      "Developed an internal subscription management tool providing centralized platform for managing service subscriptions.",
+      "Implemented OAuth2 authentication using hosted AWS Cognito UI with ReactJS, CSS3, React Router, Redux, and Redux Saga."
+    ]
+  },
+  {
+    "company": "GSLab",
+    "position": "Software Engineer",
+    "duration": "Jul 2019 - Jun 2021",
+    "location": "Pune",
+    "highlights": [
+      "Led a team of frontend developers to develop a CMS-agnostic outbound caller web application using GCP and Avaya CPaaS.",
+      "Developed responsive UI using ReactJS and Redux for campaign management with large contact lists.",
+      "Migrated POM user interface from Flash to React and Redux, mitigating application downtime risk.",
+      "Delivered cross-browser-compatible accessible UI using React, Redux, and SortableJS, reducing render times by 50%."
+    ]
+  }
 ]
