@@ -12,7 +12,7 @@
     "start": "rsbuild dev",
     "build": "rsbuild build",
     "preview": "rsbuild preview",
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "echo prasunkumar.dev > ./build/CNAME && gh-pages -d build"
   },
   "browserslist": {
